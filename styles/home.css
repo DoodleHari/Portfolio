@@ -1,0 +1,310 @@
+.logo span {
+    text-shadow: 0 0 20px #00fffb, 0 0 40px #ffffff;
+    background: linear-gradient(
+      to right, rgb(0, 153, 255), #fff 35%, rgb(255, 255, 255)
+    );
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradient 10s linear infinite;
+  }
+  
+  @keyframes gradient {
+    0% { background-position: 0% 75%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 70%; }
+  }
+  
+  .profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .profile-potion {
+    height: 600px;
+    margin: 80px 70px 10px;
+    padding: 20px;
+    border-radius: 50px;
+    background-color: rgba(255, 0, 238, 0.);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .info {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .info h1 {
+    animation: slideBottom 1s ease forwards;
+    animation-delay: 0.7s;
+  }
+  
+  .intro {
+    margin-top: 150px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  
+  .intro p {
+    margin: 5px 0px 10px;
+  }
+  
+  
+  .profile-pic {
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+    margin-top: 30px;
+    display: block;
+    border-radius: 50px;
+  }
+  
+  .about-profile-pic {
+    width: 500px;
+    height: 450px;
+    border-radius: 50px 150px;
+    overflow: hidden;
+    display: block;
+  }
+  
+  .toolbar {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 60px;
+    background-color: rgb(128, 54, 207);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+  }
+  
+  .menu {
+    margin-right: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s;
+  }
+  
+  /* Your existing styles for buttons and toolbar */
+  
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    background-color: rgb(128, 54, 207, 0.7);
+    backdrop-filter: blur(10px);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 100px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #ffffff;
+    display: block;
+    transition: 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+  }
+  
+  .sidenav a:hover {
+    opacity: 0.5;
+  }
+  
+  .close-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 30px;
+    background-color: rgb(128, 54, 207);
+    border: 0;
+    color: rgb(0, 0, 0);
+    transition: 0.2s;
+  }
+  
+  .close-btn:hover {
+    opacity: 0.5;
+    font-size: 35px;
+  }
+  
+  .toolbar .logo {
+    margin-left: 80px;
+    font-weight: bold;
+    color: white;
+    font-size: 1.5rem;
+  }
+  
+  @media (max-width: 952px) {
+    .toolbar-right {
+      display: none;
+    }
+    .menu {
+      display: block;
+    }
+  }
+  @media (min-width: 952px) {
+    .menu {
+      display: none;
+    }
+  }
+  
+  .toolbar i {
+    animation: slideTop 0.5s ease forwards;
+  }
+  @keyframes sildeTop {
+    0% {
+      transform: translateY(100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0px);
+      opacity: 1;
+    }
+  }
+  @keyframes sildeBottom {
+    0% {
+      transform: translateY(-100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0px);
+      opacity: 1;
+    }
+  }
+  
+  .social-media a {
+    color: rgb(123, 0, 255);
+    font-size: larger;
+    margin-right: 10px;
+  }
+  
+  .social-media a:hover {
+    opacity: 0.5;
+  }
+  
+  .custom-btn {
+    position: relative;
+    z-index: 1;
+    width: 100px;
+    height: 40px;
+    color: white;
+    border-radius: 5px;
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: inline-block;
+  }
+  
+  .custom-btn a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .menu-btn {
+    position: relative;
+    z-index: 1;
+    width: 100px;
+    height: 40px;
+    color: white;
+    border-radius: 5px;
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-size: x-large;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: inline-block;
+  }
+  
+  .menu-btn:active {
+    opacity: 0.5;
+  }
+  
+  /*
+  .topbar {
+    position: relative;
+  }
+  
+  .topbar::before {
+    color: black;
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    border-radius: 10px;
+    background: hsl(200 100% 80%);
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+    opacity: 0.3;
+    z-index: 0;
+    transform-origin: right;
+  }
+  
+  .topbar:hover::before {
+    transform: scaleX(1);
+    transform-origin: left;
+  }
+  */
+  
+  .fit-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* You can use 'contain' or other values based on your needs */
+  }
+  
+  .btn-5 {
+    width: 100px;
+    height: 40px;
+    padding: 0;
+    border: none;
+  }
+  .btn-5:hover {
+    color: #ffffff;
+    background: transparent;
+    box-shadow: none;
+  }
+  .btn-5:before,
+  .btn-5:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 2px;
+    width: 0;
+    background: #c797eb;
+    box-shadow: -1px -1px 5px 0px #fff, 7px 7px 20px 0px #0003,
+      4px 4px 5px 0px #0002;
+    transition: 400ms ease all;
+  }
+  .btn-5:after {
+    right: inherit;
+    top: inherit;
+    left: 0;
+    bottom: 0;
+  }
+  .btn-5:hover:before,
+  .btn-5:hover:after {
+    width: 100%;
+    transition: 800ms ease all;
+  }

@@ -1,0 +1,52 @@
+.about-me {
+    height: 600px;
+    margin: 100px 70px 0;
+    padding: 20px;
+    border-radius: 50px 200px;
+    background-color: rgba(0, 68, 255, 0.2);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .about-anim {
+    animation: anim-about 3s;
+  }
+  
+  @keyframes anim-about {
+    0%{transform: rotate(90deg);}
+    50%{transform: scaleX(-1);}
+    100%{transform: scaleX(1);}
+  }
+  
+  .w3 { 
+    animation:opac 10s
+  }
+  
+  @keyframes opac {
+    from{opacity:0} 
+    to{opacity:1}
+  }
+  
+  .aboutme {
+    top: 0;
+    width: 100%;
+  }
+  
+  .aboutme h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  
+  .about-section {
+    display: flex;
+  }
+  
+  .about-words {
+    margin: 50px 0 0 15px;
+    width: 500px;
+    height: 400px;
+    overflow: hidden;
+  }
