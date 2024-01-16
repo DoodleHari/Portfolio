@@ -263,7 +263,7 @@
   
   .topbar:hover::before {
     transform: scaleX(1);
-    transform-origin: left;
+    transform-origin:  left;
   }
   */
   
