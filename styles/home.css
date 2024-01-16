@@ -1,12 +1,12 @@
 .logo span {
     text-shadow: 0 0 20px #00fffb, 0 0 40px #ffffff;
     background: linear-gradient(
-      to right, rgb(0, 153, 255), #fff 35%, rgb(255, 255, 255)
+      to right, rgb(0, 191, 255), #056dec 35%, rgb(0, 255, 242)
     );
     background-size: 200% auto;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    animation: gradient 10s linear infinite;
+    animation: gradient 3s linear infinite;
   }
   
   @keyframes gradient {
@@ -79,7 +79,7 @@
     right: 0;
     top: 0;
     height: 60px;
-    background-color: rgb(128, 54, 207);
+    background-color: rgb(171, 54, 207);
     display: flex;
     justify-content: space-between;
     align-items: center;

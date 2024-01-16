@@ -1,7 +1,7 @@
 .project-potion {
     display: flex;
     flex-direction: column;
-    height: 600px;
+    height: 800px;
     margin: 80px 70px 10px;
     padding: 20px;
     border-radius: 50px;
@@ -40,7 +40,7 @@
   
   .card {
     width: 80px;
-    height: 450px;
+    height: 550px;
     border-radius: .75rem;
     background-size: cover;
     cursor: pointer;
@@ -106,7 +106,7 @@
   }
   
   input:checked + label {
-    width: 500px;
+    width: 600px;
   }
   
   input:checked + label .description {
@@ -117,15 +117,15 @@
   .card[for="c1"] {
     background-image: url(../img/projects/yt--clone.png);
   }
-  
+
   .card[for="c2"] {
     background-image: url(../img/projects/web-portal.png);
   }
-  
+
   .card[for="c3"] {
-    background-image: url(../img/profile-1.png);
+    background-image: url(../img/projects//python.png);
   }
-  
+
   .card[for="c4"] {
-    background-image: url(../img/about.jpg);
+    background-image: url(../img/projects/java.jpg);
   }

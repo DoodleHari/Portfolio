@@ -3,6 +3,7 @@
 @import "./skills.css";
 @import "./experience.css";
 @import "./projects.css";
+@import "./lightbox.css";
 
 body {
   font-family: "Inter var", sans-serif;
