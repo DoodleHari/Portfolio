@@ -1,9 +1,10 @@
 .skills {
-    height: 600px;
+    height: 400px;
     margin: 100px 70px 0;
     padding: 20px 0;
-    border-radius: 50px 50px 250px 250px ;
-    background-color: white;
+    border-radius: 50px 50px 200px 200px ;
+    background-color: rgba(255, 0, 221, 0.2);
+    backdrop-filter: blur(10px);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
   }
 
@@ -15,8 +16,10 @@
   
   .logos {
     overflow: hidden;
+    margin-top: 40px;
     padding: 20px 0;
-    background-color: #ffffff;
+    background-color: rgba(211, 114, 198, 0.2);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
     white-space: nowrap;
     position: relative;
   }
@@ -25,7 +28,7 @@
   .logos:after {
     position: absolute;
     top: 0;
-    width: 250px;
+    width: 150px;
     height: 100%;
     content: "";
     z-index: 2;
