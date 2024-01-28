@@ -1,0 +1,8 @@
+Brute force solution - It's just a solution, a ordinary solution,
+                       Time Complexity = O(n^2)...because it iterates a lot of using double for loop
+
+Better solution - Like the name to give better solution
+
+Optimal solution - It's the final level solution...
+
+
