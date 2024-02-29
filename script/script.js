@@ -17,5 +17,20 @@ function toolbar() {
     document.getElementById("about").style.margin = "";
 }
 
+// Function to vertically center sections within the viewport
+function centerSectionsVertically() {
+    var sections = document.querySelectorAll('.center-vertical');
+    var windowHeight = window.innerHeight;
+
+    sections.forEach(function(section) {
+        var sectionHeight = section.clientHeight;
+        var paddingTop = (windowHeight - sectionHeight) / 2;
+        section.style.paddingTop = paddingTop + 'px';
+    });
+}
+
+// Call the function when the page is loaded and resized
+window.addEventListener('load', centerSectionsVertically);
+window.addEventListener('resize', centerSectionsVertically);
 
 
