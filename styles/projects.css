@@ -76,7 +76,7 @@
     flex-direction: column;
     overflow: hidden;
     height: 80px;
-    width: 520px;
+    width: 500px;
     opacity: 0;
     transform: translateY(30px);
     transition-delay: .3s;
@@ -85,6 +85,11 @@
   
   .description {
     border-radius: 50px;
+  }
+
+  .description:hover {
+    color: rgb(128, 54, 207);
+    font-size: larger;  
   }
   
   .description p {
