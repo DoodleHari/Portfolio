@@ -1,5 +1,5 @@
 .about-me {
-    height: 600px;
+    height: 650px;
     margin: 100px 70px 0;
     padding: 20px;
     border-radius: 50px 200px;
@@ -38,15 +38,13 @@
     align-items: center;
   }
   
-  
-  
   .about-section {
     display: flex;
   }
   
   .about-words {
-    margin: 50px 0 0 15px;
+    margin: 30px 0 0 15px;
     width: 50%;
-    height: 400px;
+    height: 500px;
     overflow: hidden;
   }
