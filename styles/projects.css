@@ -5,7 +5,7 @@
     margin: 80px 70px 10px;
     padding: 20px;
     border-radius: 50px;
-    background-color: rgba(255, 0, 238, 0.);
+    background-color: rgba(43, 255, 0, 0.2);
     backdrop-filter: blur(10px);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
   }
@@ -104,6 +104,7 @@
     margin: 0;
     padding-left: 15px;
     background-color: #223;
+    color: rgb(128, 54, 207);
   }
   
   input {
