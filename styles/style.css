@@ -1,11 +1,12 @@
 @import "./home.css";
 @import "./aboutMe.css";
 @import "./skills.css";
-@import "./contact.css";
+/* @import "./contact.css"; */
 @import "./projects.css";
 @import "./lightbox.css";
 @import "./toolbar.css";
 @import "./sidenav.css";
+@import "./contactSide.css";
 
 body {
   font-family: "Inter var", sans-serif;

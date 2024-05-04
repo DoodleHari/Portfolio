@@ -1,0 +1,17 @@
+.contact {
+    height: 200px;
+    width: 50px;
+    background: whitesmoke;
+    border-radius: 25px;
+    border: 1px solid;
+}
+
+.other-contact {
+    display: flex;
+    background-color: blue;
+}
+
+.phoneCall {
+    display: flex;
+    background-color: aquamarine;
+}
