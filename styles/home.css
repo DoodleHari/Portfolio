@@ -28,6 +28,20 @@
   animation-delay: 0.7s;
 }
 
+.download-btn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: #00fffb;
+  width: 150px;
+  height: 50px;
+  border: 4px solid #4FC3F7;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 13px;
+  transition: background-color 0.3s ease;
+}
+
 .intro {
   margin-top: 150px;
   display: flex;
@@ -44,7 +58,7 @@
 
 .wrapper {
   display: inline-flex;
-  margin: 0;
+  margin: 0 0 0 -20px;
 }
 
 .wrapper .static-txt {
@@ -193,15 +207,17 @@
   width: 50px;
   height: 50px;
   font-size: larger;
-  border: 4px solid rgb(128, 54, 207);
+  border: 4px solid #4FC3F7;
   border-radius: 50%;
   text-decoration: none;
   font-size: 24px;
-  transition: background-color 0.3s;
+  transition: background-color 0.3s ease;
 }
 
 .round-button:hover {
-  background-color: #005582; /* Change to desired hover color */
+  background-color: #4FC3F7;
+  color: black;
+  border-color: white;
 }
 
 .round-button i {
@@ -209,7 +225,7 @@
 }
 
 .social-media a {
-  color: rgb(109, 57, 165);
+  color: #4FC3F7;
   font-size: larger;
   margin-left: 30px;
 }
