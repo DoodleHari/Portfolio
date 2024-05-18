@@ -128,7 +128,7 @@
       }
     
       .info {
-        width: 300px;
+        width: 200px;
         height: 400px;
         display: flex;
         flex-direction: column;
@@ -136,7 +136,63 @@
       }
 
     .wrapper {
+        width: 200px;
       margin-bottom: 50px;
+    }
+
+    .wrapper .static-txt {
+        color: #fff;
+        font-size: 20px;
+        font-weight: 400;
+      }
+      
+      .wrapper .dynamic-txts {
+        margin-left: -28px;
+        height: 29px;
+        line-height: 29px;
+        overflow: hidden;
+      }
+      
+      .dynamic-txts li{
+        color: #64FFDA;
+        list-style: none;
+        font-size: 20px;
+        font-weight: 400;
+        position: relative;
+        top: 0;
+        animation: glide 6s steps(4) infinite;
+      }
+      
+      @keyframes glide {
+        100% {
+          top: -116px;
+        }
+      }
+      
+      .dynamic-txts span {
+        position: relative;
+      }
+      
+      .dynamic-txts li span::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background: black;
+        border-left: 2px solid #ffffff;
+        animation: typing 1.5s steps(10) infinite;
+      }
+      
+      @keyframes typing {
+        100% {
+          left: 100%;
+          margin: 0 -35px 0 35px
+        }
+      }
+
+    .intro h1 {
+        font-size: 20px;
     }
   
     .intro p {
