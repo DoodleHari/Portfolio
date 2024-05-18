@@ -7,9 +7,11 @@
 @import "./toolbar.css";
 @import "./sidenav.css";
 @import "./contactSide.css";
+@import "./responsive.css";
 
 body {
   font-family: "Inter var", sans-serif;
+  background: rgba(207, 197, 197, 0.342);
 }
 
 .background {
