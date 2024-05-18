@@ -9,6 +9,7 @@
 @import "./contactSide.css";
 @import "./responsive.css";
 @import "./mobileResponsive.css";
+@import "./skillsInProfile.css";
 
 body {
   font-family: "Inter var", sans-serif;

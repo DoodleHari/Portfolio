@@ -29,7 +29,7 @@
   
     .wrapper {
       width: 250px;
-      margin: 0 0 50px -25px;
+      margin: 0 0 50px -27px;
     }
   
     .wrapper .static-txt {
@@ -39,7 +39,7 @@
     }
   
     .wrapper .dynamic-txts {
-      margin-left: -30px;
+      margin-left: -35px;
       height: 20px;
       line-height: 20px;
       overflow: hidden;
@@ -57,7 +57,7 @@
   
     @keyframes glide {
       100% {
-        top: -80px;
+        top: -79.1px;
       }
     }
   
@@ -100,7 +100,7 @@
       border: none;
     }
   
-    .social-media a {
-      margin: 0;
+    .social-media {
+      margin-left: -30px;
     }
   }

@@ -1,0 +1,70 @@
+.logosProf {
+    overflow: hidden;
+    margin-top: 40px;
+    padding: 20px 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    white-space: nowrap;
+    position: relative;
+  }
+  
+  .logosProf:before,
+  .logosProf:after {
+    position: absolute;
+    top: 0;
+    width: 150px;
+    height: 100%;
+    content: "";
+    z-index: 2;
+  }
+  
+  .logosProf:before {
+    left: 0;
+    background: linear-gradient(
+      to left,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.9)
+    );
+  }
+  
+  .logosProf:after {
+    right: 0;
+    background: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.073)
+    );
+  }
+  
+  .logosProf:hover .logosProf-slide {
+    animation-play-state: paused;
+  }
+  
+  .logosProf-slide {
+    display: inline-block;
+    animation: 35s slide infinite linear;
+  }
+  
+  .logosProf-slide img {
+    height: 60px;
+    margin: 0 40px;
+    border-radius: 50%;
+  }
+  
+  @keyframes slide {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  
+  @keyframes slideIn {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
