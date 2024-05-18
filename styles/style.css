@@ -8,6 +8,7 @@
 @import "./sidenav.css";
 @import "./contactSide.css";
 @import "./responsive.css";
+@import "./mobileResponsive.css";
 
 body {
   font-family: "Inter var", sans-serif;

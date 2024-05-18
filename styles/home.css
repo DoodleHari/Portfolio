@@ -44,7 +44,7 @@
 
 .wrapper {
   display: inline-flex;
-  margin: 0 0 0 -100px;
+  margin: 0;
 }
 
 .wrapper .static-txt {
@@ -88,7 +88,7 @@
   width: 100%;
   background: black;
   border-left: 2px solid #ffffff;
-  animation: typing 1.5s steps(10) infinite;
+  animation: typing 1.5s steps(20) infinite;
 }
 
 @keyframes typing {

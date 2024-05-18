@@ -1,0 +1,103 @@
+@media (max-width: 460px) {
+    .profile-pic {
+      width: 200px;
+      height: 300px;
+      overflow: hidden;
+      margin-top: 30px;
+      display: block;
+      border-radius: 50px;
+    }
+  
+    .info {
+      width: 200px;
+      height: 400px;
+      display: flex;
+      flex-direction: column;
+      margin-top: -120px;
+    }
+
+    .intro p {
+        margin-top: -50px;
+        font-size: 8px;
+        font-weight: 200;
+        color: white;
+      }
+  
+    .wrapper {
+      width: 250px;
+      margin: 0 0 50px -25px;
+    }
+  
+    .wrapper .static-txt {
+      color: #fff;
+      font-size: 13px;
+      font-weight: 400;
+    }
+  
+    .wrapper .dynamic-txts {
+      margin-left: -30px;
+      height: 20px;
+      line-height: 20px;
+      overflow: hidden;
+    }
+  
+    .dynamic-txts li {
+      color: #64ffda;
+      list-style: none;
+      font-size: 15px;
+      font-weight: 400;
+      position: relative;
+      top: 0;
+      animation: glide 6s steps(4) infinite;
+    }
+  
+    @keyframes glide {
+      100% {
+        top: -80px;
+      }
+    }
+  
+    .dynamic-txts span {
+      position: relative;
+    }
+  
+    .dynamic-txts li span::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background: black;
+      border-left: 2px solid #ffffff;
+      animation: typing 1.5s steps(10) infinite;
+    }
+  
+    @keyframes typing {
+      100% {
+        left: 100%;
+        margin: 0 -35px 0 35px;
+      }
+    }
+  
+    .intro h1 {
+      font-size: 20px;
+    }
+  
+    .intro p {
+      margin-top: -50px;
+      font-size: 10px;
+      font-weight: 200;
+      color: white;
+    }
+  
+    .round-button {
+      width: 50px;
+      height: 50px;
+      border: none;
+      padding-bottom: 30px;
+    }
+  
+    .social-media a {
+      margin: 0 0 0 0px;
+    }
+  }
