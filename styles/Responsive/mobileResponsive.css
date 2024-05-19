@@ -13,7 +13,7 @@
     }
   
     .info {
-      width: 200px;
+      width: 250px;
       height: 400px;
       display: flex;
       flex-direction: column;
@@ -28,8 +28,8 @@
       }
   
     .wrapper {
-      width: 250px;
-      margin: 0 0 50px -27px;
+      width: 300px;
+      margin: 0 0 50px -20px;
     }
   
     .wrapper .static-txt {
@@ -46,9 +46,9 @@
     }
   
     .dynamic-txts li {
-      color: #64ffda;
+      color: var(--secondary-color);
       list-style: none;
-      font-size: 15px;
+      font-size: 16px;
       font-weight: 400;
       position: relative;
       top: 0;
@@ -93,14 +93,29 @@
       font-weight: 200;
       color: white;
     }
+
+    .about-profile-pic {
+      height: 250px;
+    }
   
+    .about-words {
+      font-size: 10px;
+    }
+
+    .aboutme h1 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: -70px;
+    }
+
     .round-button {
       width: 40px;
       height: 40px;
       border: none;
     }
-  
-    .social-media {
-      margin-left: -30px;
+
+    .download-btn {
+      margin-left: 10px;
     }
   }

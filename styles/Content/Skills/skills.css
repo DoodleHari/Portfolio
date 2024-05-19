@@ -8,6 +8,39 @@
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
   }
 
+  /* .skills::before,
+.skills::after {
+  content: '';
+  position: relative;
+  top: 50%;
+  left: 50%;
+  width: 300%;
+  height: 300%;
+  background-color: rgba(255, 255, 255, 0.15);
+  transform: translate(-50%, -50%) rotate(90deg);
+  transition: transform 0.5s ease;
+}
+
+.skills::before {
+  border-radius: 40%;
+}
+
+.skills::after {
+  border-radius: 60%;
+}
+
+.skills:hover {
+  background-color: #8fdee563;
+}
+
+.skills:hover::before {
+  transform: translate(-50%, -50%) rotate(0deg) scale(1);
+}
+
+.skills:hover::after {
+  transform: translate(-50%, -50%) rotate(0deg) scale(0);
+} */
+
   .skills-section h1 {
     display: flex;
     justify-content: center;

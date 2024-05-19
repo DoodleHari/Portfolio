@@ -1,0 +1,73 @@
+/* Your existing styles for buttons and toolbar */
+  
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    background-color: rgb(128, 54, 207, 0.7);
+    backdrop-filter: blur(10px);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 100px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: var(--color-white);
+    display: block;
+    transition: 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+    transition: .5s;
+  }
+  
+  .sidenav a:hover {
+    color: var(--color-black);
+    opacity: 0.5;
+    transition: 0.5s ease-in-out;
+  }
+
+  .close-btn i {
+    color: rgb(128, 54, 207); /* Change the icon color to black */
+    font-size: 30px; /* Optional: adjust the icon size */
+    background-color: var(--color-black);
+    transition: 0.2s;
+  }
+  
+  .close-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 20px;
+    border: 0;
+    background-color: var(--color-black);
+    transition: 0.2s;
+  }
+
+  .close-btn:hover {
+    color: var(--color-black);
+    background-color: var(--color-fav);
+  }
+
+  .close-btn i:hover {
+    color: var(--color-black);
+    background-color: var(--color-fav);
+  }
+  
+  
+  /* Your existing styles for buttons and toolbar */
+
+.menu {
+  margin-right: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.2s;
+}

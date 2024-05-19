@@ -1,15 +1,16 @@
-@import "./home.css";
-@import "./aboutMe.css";
-@import "./skills.css";
+@import "./variables.css";
+@import "./Content/Home/home.css";
+@import "./Content/AboutMe//aboutMe.css";
+@import "./Content/Skills/skills.css";
 /* @import "./contact.css"; */
-@import "./projects.css";
+@import "./Content/Projects/projects.css";
 @import "./lightbox.css";
-@import "./toolbar.css";
-@import "./sidenav.css";
-@import "./contactSide.css";
-@import "./responsive.css";
-@import "./mobileResponsive.css";
-@import "./skillsInProfile.css";
+@import "./Header/toolbar.css";
+@import "./SideBar/sidenav.css";
+@import "./Content/Contact/contactSide.css";
+@import "./Responsive/responsive.css";
+@import "./Responsive/mobileResponsive.css";
+@import "./Content/Skills/skillsInProfile.css";
 
 body {
   font-family: "Inter var", sans-serif;
@@ -27,3 +28,37 @@ body {
   filter: blur(10px); /* Adjust the blur amount */
 }
  
+  /* Styling for the h1 title */
+  .styled-title {
+    font-size: 3em;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #6e00ff, #ff00c6);
+    -webkit-background-clip: text;
+    color: transparent;
+    position: relative;
+    display: inline-block;
+    padding: 0.2em 0.5em;
+    margin: 0;
+    border-radius: 10px;
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  /* Highlight style for the span */
+  .styled-title .highlight {
+    color: #8036cf;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    animation: pulse 1s infinite alternate;
+  }
+  
+  /* Fade-in animation */
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  /* Pulse animation */
+  @keyframes pulse {
+    from { transform: scale(1); }
+    to { transform: scale(1.1); }
+  }

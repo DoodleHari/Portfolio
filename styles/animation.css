@@ -1,0 +1,34 @@
+/* -------**Two **------ */
+
+  /* .skills::before,
+.skills::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 80%;
+  height: 50%;
+  background-color: rgba(255, 255, 255, 0.15);
+  transform: translate(-50%, -50%) rotate(90deg);
+  transition: transform 0.5s ease;
+}
+
+.skills::before {
+  border-radius: 40%;
+}
+
+.skills::after {
+  border-radius: 60%;
+}
+
+.skills:hover {
+  background-color: #8fdee563;
+}
+
+.skills:hover::before {
+  transform: translate(-50%, -50%) rotate(0deg) scale(1);
+}
+
+.skills:hover::after {
+  transform: translate(-50%, -50%) rotate(0deg) scale(0);
+} */

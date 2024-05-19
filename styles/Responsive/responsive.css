@@ -28,11 +28,44 @@
     font-weight: 200;
     color: white;
   }
+
+  .about-profile-pic {
+    display: none;
+  }
+
+  .about-profile-picc {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+    border-radius: 50px 200px;
+  }
+  
+  .about-profile-picc img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.2; /* Adjust the opacity to your liking */
+  }
 }
 
 @media (max-width: 1008px) {
   .profile-potion {
     margin: 40px 30px 0;
+  }
+  .about-me {
+    margin: 40px 30px 0;
+    height: 900px;
+  }
+
+  .about-words {
+    margin: 30px 0 0 15px;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
   }
 
   .wrapper {
@@ -61,7 +94,7 @@
   }
 
   .dynamic-txts li {
-    color: #64ffda;
+    color: var(--secondary-color);
     list-style: none;
     font-size: 25px;
     font-weight: 400;
@@ -72,7 +105,7 @@
 
   @keyframes glide {
     100% {
-      top: -120.5px;
+      top: -121.2px;
     }
   }
 
@@ -86,9 +119,9 @@
     left: 0;
     height: 100%;
     width: 100%;
-    background: black;
+    background: var(--color-black);
     border-left: 2px solid #ffffff;
-    animation: typing 1.5s steps(10) infinite;
+    animation: typing 1.5s steps(20) infinite;
   }
 
   @keyframes typing {
@@ -105,6 +138,12 @@
     flex-direction: column-reverse;
     margin-top: -140px;
   }
+  .about-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
 
   .profile-pic {
     width: 300px;
@@ -113,6 +152,15 @@
     margin-top: 30px;
     display: block;
     border-radius: 50px;
+  }
+
+  .about-profile-pic {
+    width: 300px;
+    height: 350px;
+    overflow: hidden;
+    margin-top: 30px;
+    display: block;
+    border-radius: 50px 150px;
   }
 
   .info  h1, p {
@@ -135,6 +183,51 @@
     z-index: 1000;
   }
 
+  .wrapper .dynamic-txts {
+    margin-left: -28px;
+    height: 32px;
+    line-height: 32px;
+    overflow: hidden;
+  }
+
+  .dynamic-txts li {
+    color: var(--secondary-color);
+    list-style: none;
+    font-size: 26px;
+    font-weight: 400;
+    position: relative;
+    top: 0;
+    animation: glide 6s steps(4) infinite;
+  }
+
+  @keyframes glide {
+    100% {
+      top: -128px;
+    }
+  }
+
+  .dynamic-txts span {
+    position: relative;
+  }
+
+  .dynamic-txts li span::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: var(--color-black);
+    border-left: 2px solid #ffffff;
+    animation: typing 1.5s steps(20) infinite;
+  }
+
+  @keyframes typing {
+    100% {
+      left: 100%;
+      margin: 0 -35px 0 35px;
+    }
+  }
+
   .intro p {
     margin: 0px 0 0 0;
     font-size: 12px;
@@ -146,15 +239,18 @@
   .round-button {
     width: 50px;
     height: 50px;
-    border: 2px solid #4fc3f7;
+    border: 2px solid var(--primary-color);;
     border-radius: 50%;
   }
 
   .social-media {
     display: flex;
     justify-content: center;
-    gap: 20px;
-    margin-left: -30px;
+    gap: 30px;
+  }
+
+  .social-media a {
+    margin: 0;
   }
   
   .resume {
@@ -182,7 +278,5 @@
     border: none;
   }
 
-  .social-media a {
-    margin: 0 0 0 30px;
-  }
+  
 }
