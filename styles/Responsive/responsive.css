@@ -99,15 +99,15 @@
 
   .wrapper .dynamic-txts {
     margin-left: -28px;
-    height: 30px;
-    line-height: 30px;
+    height: 31px;
+    line-height: 31px;
     overflow: hidden;
   }
 
   .dynamic-txts li {
     color: var(--secondary-color);
     list-style: none;
-    font-size: 25px;
+    font-size: 25.5px;
     font-weight: 400;
     position: relative;
     top: 0;
@@ -116,7 +116,7 @@
 
   @keyframes glide {
     100% {
-      top: -121.2px;
+      top: -124.7px;
     }
   }
 

@@ -98,6 +98,11 @@
     color: white;
   }
 
+  .about-me {
+    height: 800px;
+    margin: 40px 15px 0;
+  }
+
   .about-profile-pic {
     height: 250px;
   }
@@ -125,5 +130,17 @@
 
   .download-btn {
     margin-left: 10px;
+  }
+
+  .aboutme-title h1 {
+    width: 100%;
+  }
+
+  .skills {
+    margin: 40px 15px 0;
+  }
+
+  .skills-section h1 {
+    width: 100%;
   }
 }
