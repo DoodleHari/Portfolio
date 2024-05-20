@@ -1,39 +1,85 @@
 .contact {
   position: fixed;
-  left: 95%;
-  right: 0;
   top: 40%;
-  height: 60px;
+  height: 200px;
   background-color: #ececec;
   z-index: 100;
+  width: 40px;
   border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  transition: left 0.3s ease;
+  cursor: pointer;
 }
 
-.other-contact:hover {
-  left: 50%;
-  transition: 5s ease;
-}
-
-.phoneCall:hover {
-  right: -150px; /* Extend 200px to the left on hover */
-  width: 400px;
-  transition: 3s ease;
+.vertical-text {
+  writing-mode: vertical-lr;
+  text-orientation: upright;
 }
 
 .other-contact {
-  height: 180px;
-  border-radius: 5px 5px 0 0;
+  height: 150px;
+  width: 40px;
+  border-radius: 20px 20px 0 0;
   display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transition: width 0.3s ease, left 0.3s ease;
+  cursor: pointer;
+  overflow: hidden;
   background-color: rgb(0, 0, 0);
+  color: white;
 }
 
-.other-content p {
-    color: white;
+.other-contact:hover {
+  width: 300px;
 }
 
 .phoneCall {
-  height: 60px;
-  border-radius: 0 0 5px 5px;
+  height: 50px;
+  width: 40px;
+  border-radius: 0 0 20px 20px;
   display: flex;
-  background-color: aquamarine;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transition: width 0.3s ease, left 0.3s ease;
+  cursor: pointer;
+  overflow: hidden;
+  background-color: var(--whatsapp-color);
+}
+
+.phoneCall p {
+  display: none; /* Hide the paragraph initially */
+}
+.phoneCall i {
+  font-size: 24px;
+  color: white;
+}
+
+.phoneCall:hover {
+  width: 300px;
+  animation: showContact 2s;
+}
+
+.phoneCall:hover p {
+  display: block; /* Show the paragraph on hover */
+  animation: showContact 2s; /* Add the desired animation */
+}
+
+@keyframes showContact {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.other-contact p {
+  margin: 0;
+  padding: 0 10px;
+  color: white;
 }

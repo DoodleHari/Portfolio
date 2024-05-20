@@ -258,6 +258,10 @@
     justify-content: center;
     margin-left: -10px;
   }
+
+  .about-words {
+    font-size: 12px;
+  }
 }
 
 @media (max-width: 650px) {
