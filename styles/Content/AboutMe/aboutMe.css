@@ -1,85 +1,103 @@
 .about-me {
-    height: 750px;
-    margin: 100px 70px 0;
-    padding: 20px;
-    /* border-radius: 50px 200px; */
-    border-radius: 50px;
-    background-color: rgba(255, 255, 255, 0);
-    color: rgb(0, 0, 0);
-    backdrop-filter: blur(10px);
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
-  }
+  display: flex;
+  justify-content: center;
+  height: 750px;
+  margin: 100px 70px 0;
+  padding: 20px;
+  /* border-radius: 50px 200px; */
+  border-radius: 50px;
+  background-color: rgba(255, 255, 255, 0);
+  color: rgb(0, 0, 0);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
 
-  .about-profile-pic {
-    margin-top: 50px;
-    width: 550px;
-    height: 500px;
-    border-radius: 50px 150px;
-    overflow: hidden;
-    display: block;
-  }
-  
-  .about-anim {
-    animation: anim-about 3s;
-  }
-  
-  @keyframes anim-about {
-    0%{transform: rotate(90deg);}
-    50%{transform: scaleX(-1);}
-    100%{transform: scaleX(1);}
-  }
-  
-  .w3 { 
-    animation:opac 10s
-  }
-  
-  @keyframes opac {
-    from{opacity:0} 
-    to{opacity:1}
-  }
-  
-  .aboutme {
-    top: 0;
-    width: 100%;
-  }
-  
-  .aboutme h1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .about-section {
-    display: flex;
-  }
-  
-  .about-words {
-    margin: 30px 0 0 15px;
-    width: 50%;
-    height: 500px;
-    overflow: hidden;
-  }
+.about-profile-pic {
+  margin-top: 50px;
+  width: 550px;
+  height: 500px;
+  border-radius: 50px 150px;
+  overflow: hidden;
+  display: block;
+}
 
-  .about-me-title {
-    color: var(--color-black);
-    font-size: 20px;
-    font-weight: 500;
-  }
+.about-anim {
+  animation: anim-about 3s;
+}
 
-  .about-profile-picc {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    overflow: hidden;
-    border-radius: 50px 200px;
+@keyframes anim-about {
+  0% {
+    transform: rotate(90deg);
   }
-  
-  .about-profile-picc img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    opacity: 0.2; /* Adjust the opacity to your liking */
+  50% {
+    transform: scaleX(-1);
   }
+  100% {
+    transform: scaleX(1);
+  }
+}
+
+.w3 {
+  animation: opac 10s;
+}
+
+@keyframes opac {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.aboutme-title h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 0;
+  width: 300px;
+  height: 100px;
+  padding: 20px;
+  border-radius: 50px;
+  background-color: rgba(255, 255, 255, 0);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  transition: width 1s ease-in-out;
+}
+
+.aboutme-title h1:hover {
+  width: 100%;
+}
+
+.about-section {
+  display: flex;
+}
+
+.about-words {
+  margin: 30px 0 0 15px;
+  width: 50%;
+  height: 600px;
+  overflow: hidden;
+}
+
+.about-words p {
+  font-size: 15px;
+}
+
+.about-profile-picc {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  overflow: hidden;
+  border-radius: 50px;
+}
+
+.about-profile-picc img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.2; /* Adjust the opacity to your liking */
+}

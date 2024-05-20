@@ -1,121 +1,129 @@
 @media (max-width: 460px) {
-    .profile-potion {
-        margin: 40px 15px 0;
-      }
+  .profile {
+    margin-top: 2px;
+  }
 
-    .profile-pic {
-      width: 300px;
-      height: 300px;
-      overflow: hidden;
-      margin-top: 30px;
-      display: block;
-      border-radius: 50px;
-    }
-  
-    .info {
-      width: 250px;
-      height: 400px;
-      display: flex;
-      flex-direction: column;
-      margin-top: -120px;
-    }
+  .profile-potion {
+    margin: 40px 15px 0;
+  }
 
-    .intro p {
-        margin-top: -50px;
-        font-size: 8px;
-        font-weight: 200;
-        color: white;
-      }
-  
-    .wrapper {
-      width: 300px;
-      margin: 0 0 50px -20px;
-    }
-  
-    .wrapper .static-txt {
-      color: #fff;
-      font-size: 13px;
-      font-weight: 400;
-    }
-  
-    .wrapper .dynamic-txts {
-      margin-left: -35px;
-      height: 20px;
-      line-height: 20px;
-      overflow: hidden;
-    }
-  
-    .dynamic-txts li {
-      color: var(--secondary-color);
-      list-style: none;
-      font-size: 16px;
-      font-weight: 400;
-      position: relative;
-      top: 0;
-      animation: glide 6s steps(4) infinite;
-    }
-  
-    @keyframes glide {
-      100% {
-        top: -79.1px;
-      }
-    }
-  
-    .dynamic-txts span {
-      position: relative;
-    }
-  
-    .dynamic-txts li span::after {
-      content: "";
-      position: absolute;
-      left: 0;
-      height: 100%;
-      width: 100%;
-      background: black;
-      border-left: 2px solid #ffffff;
-      animation: typing 1.5s steps(10) infinite;
-    }
-  
-    @keyframes typing {
-      100% {
-        left: 100%;
-        margin: 0 -35px 0 35px;
-      }
-    }
-  
-    .intro h1 {
-      font-size: 20px;
-    }
-  
-    .intro p {
-      margin-top: -50px;
-      font-size: 10px;
-      font-weight: 200;
-      color: white;
-    }
+  .profile-pic {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    margin-top: 30px;
+    display: block;
+    border-radius: 50px;
+  }
 
-    .about-profile-pic {
-      height: 250px;
-    }
-  
-    .about-words {
-      font-size: 10px;
-    }
+  .info {
+    width: 250px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-top: -120px;
+  }
 
-    .aboutme h1 {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-left: -70px;
-    }
+  .intro p {
+    margin-top: -50px;
+    font-size: 8px;
+    font-weight: 200;
+    color: white;
+  }
 
-    .round-button {
-      width: 40px;
-      height: 40px;
-      border: none;
-    }
+  .wrapper {
+    width: 300px;
+    margin: 0 0 50px -20px;
+  }
 
-    .download-btn {
-      margin-left: 10px;
+  .wrapper .static-txt {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 400;
+  }
+
+  .wrapper .dynamic-txts {
+    margin-left: -35px;
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+  }
+
+  .dynamic-txts li {
+    color: var(--secondary-color);
+    list-style: none;
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+    top: 0;
+    animation: glide 6s steps(4) infinite;
+  }
+
+  @keyframes glide {
+    100% {
+      top: -79.1px;
     }
   }
+
+  .dynamic-txts span {
+    position: relative;
+  }
+
+  .dynamic-txts li span::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: black;
+    border-left: 2px solid #ffffff;
+    animation: typing 1.5s steps(10) infinite;
+  }
+
+  @keyframes typing {
+    100% {
+      left: 100%;
+      margin: 0 -35px 0 35px;
+    }
+  }
+
+  .intro h1 {
+    font-size: 20px;
+  }
+
+  .intro p {
+    margin-top: -50px;
+    font-size: 10px;
+    font-weight: 200;
+    color: white;
+  }
+
+  .about-profile-pic {
+    height: 250px;
+  }
+
+  .about-words {
+    font-size: 10px;
+  }
+
+  .about-words {
+    margin: 0;
+  }
+
+  .aboutme h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -70px;
+  }
+
+  .round-button {
+    width: 40px;
+    height: 40px;
+    border: none;
+  }
+
+  .download-btn {
+    margin-left: 10px;
+  }
+}

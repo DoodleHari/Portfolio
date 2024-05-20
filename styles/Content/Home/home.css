@@ -156,9 +156,8 @@
 
 .profile-pic {
   width: 500px;
-  height: 700px;
+  height: 600px;
   overflow: hidden;
-  margin-top: -120px;
   display: block;
   border-radius: 50px;
   z-index: 100;

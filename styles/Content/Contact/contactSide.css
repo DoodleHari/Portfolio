@@ -32,8 +32,24 @@
   color: white;
 }
 
+.other-contact a {
+  display: none;
+  margin-bottom: 15px;
+}
+
 .other-contact:hover {
   width: 300px;
+  animation: showContact 2s;
+}
+
+.other-contact:hover p {
+  display: none;
+}
+
+.other-contact:hover a {
+  display: block; /* Show the paragraph on hover */
+  margin-top: -10px;
+  animation: showContact 2s; /* Add the desired animation */
 }
 
 .phoneCall {
@@ -44,18 +60,24 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
+  flex-direction: row;
   transition: width 0.3s ease, left 0.3s ease;
   cursor: pointer;
   overflow: hidden;
   background-color: var(--whatsapp-color);
 }
 
-.phoneCall p {
-  display: none; /* Hide the paragraph initially */
+.phoneCall img {
+  height: 40px;
 }
-.phoneCall i {
-  font-size: 24px;
+
+.phoneCall:hover img {
+  margin-left: -97px;
+}
+
+.phoneCall a {
+  display: none; /* Hide the paragraph initially */
+  font-size: 20px;
   color: white;
 }
 
@@ -64,7 +86,7 @@
   animation: showContact 2s;
 }
 
-.phoneCall:hover p {
+.phoneCall:hover a {
   display: block; /* Show the paragraph on hover */
   animation: showContact 2s; /* Add the desired animation */
 }
@@ -78,8 +100,3 @@
   }
 }
 
-.other-contact p {
-  margin: 0;
-  padding: 0 10px;
-  color: white;
-}

@@ -1,14 +1,110 @@
 .skills {
-    height: 400px;
-    margin: 100px 70px 0;
-    padding: 20px 0;
-    border-radius: 50px 50px 200px 200px ;
-    background-color: rgba(255, 0, 221, 0.2);
-    backdrop-filter: blur(10px);
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
-  }
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  margin: 100px 70px 0;
+  padding: 20px 0;
+  border-radius: 50px 50px 200px 200px;
+  background-color: rgba(255, 0, 221, 0.2);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
 
-  /* .skills::before,
+.skills-section {
+  padding: 0 20px;
+}
+
+.skills-section h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  left: 0;
+  height: 100px;
+  padding: 20px 0;
+  border-radius: 50px;
+  background-color: rgba(255, 0, 221, 0.2);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  transition: width 1s ease-in-out;
+}
+
+.skills-section h1:hover {
+  width: 100%;
+}
+
+.logos {
+  overflow: hidden;
+  margin-top: 40px;
+  padding: 20px 0;
+  background-color: rgba(211, 114, 198, 0.2);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  white-space: nowrap;
+  position: relative;
+}
+
+.logos:before,
+.logos:after {
+  position: absolute;
+  top: 0;
+  width: 150px;
+  height: 100%;
+  content: "";
+  z-index: 2;
+}
+
+.logos:before {
+  left: 0;
+  background: linear-gradient(
+    to left,
+    rgb(255, 255, 255, 0),
+    rgb(216, 163, 209, 0.9)
+  );
+}
+
+.logos:after {
+  right: 0;
+  background: linear-gradient(
+    to right,
+    rgb(255, 255, 255, 0),
+    rgb(216, 163, 209, 0.9)
+  );
+}
+
+.logos:hover .logos-slide {
+  animation-play-state: paused;
+}
+
+.logos-slide {
+  display: inline-block;
+  animation: 35s slide infinite linear;
+}
+
+.logos-slide img {
+  height: 50px;
+  margin: 0 40px;
+  border-radius: 50%;
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* .skills::before,
 .skills::after {
   content: '';
   position: relative;
@@ -40,80 +136,3 @@
 .skills:hover::after {
   transform: translate(-50%, -50%) rotate(0deg) scale(0);
 } */
-
-  .skills-section h1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .logos {
-    overflow: hidden;
-    margin-top: 40px;
-    padding: 20px 0;
-    background-color: rgba(211, 114, 198, 0.2);
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
-    white-space: nowrap;
-    position: relative;
-  }
-  
-  .logos:before,
-  .logos:after {
-    position: absolute;
-    top: 0;
-    width: 150px;
-    height: 100%;
-    content: "";
-    z-index: 2;
-  }
-  
-  .logos:before {
-    left: 0;
-    background: linear-gradient(
-      to left,
-      rgb(255, 255, 255, 0),
-      rgb(216, 163, 209, 0.9)
-    );
-  }
-  
-  .logos:after {
-    right: 0;
-    background: linear-gradient(
-      to right,
-      rgb(255, 255, 255, 0),
-      rgb(216, 163, 209, 0.9)
-    );
-  }
-  
-  .logos:hover .logos-slide {
-    animation-play-state: paused;
-  }
-  
-  .logos-slide {
-    display: inline-block;
-    animation: 35s slide infinite linear;
-  }
-  
-  .logos-slide img {
-    height: 50px;
-    margin: 0 40px;
-    border-radius: 50%;
-  }
-  
-  @keyframes slide {
-    from {
-      transform: translateX(0);
-    }
-    to {
-      transform: translateX(-100%);
-    }
-  }
-  
-  @keyframes slideIn {
-    0% {
-      transform: translateX(100%);
-    }
-    100% {
-      transform: translateX(-100%);
-    }
-  }

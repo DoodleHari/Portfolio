@@ -34,3 +34,15 @@ window.addEventListener('load', centerSectionsVertically);
 window.addEventListener('resize', centerSectionsVertically);
 
 
+
+function openContactSection() {
+    var contactSection = document.getElementById("contact");
+    if (contactSection) {
+        contactSection.scrollIntoView({ behavior: "smooth" });
+    }
+}
+
+var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+  return new bootstrap.Tooltip(tooltipTriggerEl)
+})

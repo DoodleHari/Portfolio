@@ -1,6 +1,6 @@
 .logosProf {
     overflow: hidden;
-    margin-top: 40px;
+    margin-top: 0px;
     padding: 20px 0;
     background-color: rgba(0, 0, 0, 0.2);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
@@ -36,19 +36,13 @@
     );
   }
   
-  .logosProf:hover .logosProf-slide {
+  .logosProf:hover .logos-slide {
     animation-play-state: paused;
   }
   
-  .logosProf-slide {
+  .logos-slide {
     display: inline-block;
     animation: 35s slide infinite linear;
-  }
-  
-  .logosProf-slide img {
-    height: 60px;
-    margin: 0 40px;
-    border-radius: 50%;
   }
   
   @keyframes slide {

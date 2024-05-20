@@ -31,8 +31,8 @@ body {
   /* Styling for the h1 title */
   .styled-title {
     font-size: 3em;
-    font-family: 'Poppins', sans-serif;
-    background: linear-gradient(135deg, #6e00ff, #ff00c6);
+    font-family: 'Merriweather', serif;
+    background: linear-gradient(135deg, #000000, #030303);
     -webkit-background-clip: text;
     color: transparent;
     position: relative;
@@ -61,4 +61,11 @@ body {
   @keyframes pulse {
     from { transform: scale(1); }
     to { transform: scale(1.1); }
+  }
+
+  .fit-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* You can use 'contain' or other values based on your needs */
   }
