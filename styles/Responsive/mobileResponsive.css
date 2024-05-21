@@ -146,6 +146,11 @@
     width: 100%;
   }
 
+  .project-potion {
+    height: 1500px;
+    margin: 40px 15px 10px;
+  }
+
   .project-title h1 {
     width: 100%;
   }
