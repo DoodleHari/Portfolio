@@ -100,10 +100,12 @@
 
 .wrapper {
   display: inline-flex;
-  margin: 0 0 0 -20px;
+  margin: 0 0 0 0px;
 }
 
 .wrapper .static-txt {
+  display: flex;
+  align-items: center;
   color: var(--color-white);
   font-size: 30px;
   font-weight: 400;

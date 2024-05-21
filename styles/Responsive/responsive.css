@@ -18,6 +18,44 @@
   }
 }
 
+@media (max-width: 1250px) {
+  .project-container {
+    display: flex;
+    align-items: center;
+  }
+  .project-pic {
+    height: 400px;
+    width: 100%;
+    padding: 0;
+  }
+  .project-about {
+    height: 300px;
+    width: 80%;
+  }
+  .project-about-about p {
+    width: 100%;
+    font-size: 14px;
+  }
+  
+}
+
+@media (max-width: 1000px) {
+  .project-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .project-pic {
+    height: 500px;
+    width: 100%;
+    padding: 0;
+  }
+  .project-about {
+    height: 300px;
+    width: 100%;
+  }
+  
+}
+
 @media (max-width: 1080px) {
   .wrapper {
     margin-left: 0;
@@ -188,6 +226,9 @@
   }
 
   .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin: 0;
     height: 100px;
     width: 400px;
@@ -195,7 +236,7 @@
   }
 
   .wrapper .dynamic-txts {
-    margin-left: -28px;
+    margin: 0 0 0 -28px;
     height: 32px;
     line-height: 32px;
     overflow: hidden;
@@ -273,11 +314,34 @@
   .about-words p {
     font-size: 14px;
   }
+
+  .project-container {
+    display: flex;
+    align-items: center;
+  }
+  .project-pic {
+    height: 400px;
+    width: 100%;
+    padding: 0;
+  }
+  .project-about {
+    margin: -20px 0 0 0;
+    row-gap: 15px;
+    height: 300px;
+    width: 100%;
+  }
+  .project-about-about p {
+    width: 100%;
+    font-size: 14px;
+  }
 }
 
 @media (max-width: 650px) {
   .wrapper {
     margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .intro p {
