@@ -84,6 +84,10 @@
   font-size: 15px;
 }
 
+.para-description {
+  margin-left: 20px;
+}
+
 .about-profile-picc {
   position: absolute;
   top: 0;

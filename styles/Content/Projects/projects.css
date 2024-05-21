@@ -21,11 +21,16 @@
   background-color: rgba(43, 255, 0, 0.2);
   backdrop-filter: blur(10px);
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  transition: width 1s ease-in-out;
+}
+
+.project-title h1:hover {
+  width: 100%;
 }
 
 .project-description h1 {
   font-family: 'Poppins', sans-serif;
-  font-size: 1.2em;
+  font-size: 18px;
   color: #fff;
   width: 630px;
   text-align: center;
@@ -39,6 +44,22 @@
   display: flex;
   flex-direction: row;
   margin-top: 10px;
+  gap: 30px;
+}
+
+.project-about-2-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.project-about-3-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
 }
 
 .project-pic {
@@ -64,7 +85,7 @@
 .project-about-language {
   font-weight: bold;
   display: flex;
-  gap: 30px;
+  gap: 50px;
   align-items: center;
   justify-content: center;
 }

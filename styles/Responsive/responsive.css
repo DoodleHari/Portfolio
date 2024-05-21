@@ -36,13 +36,17 @@
     width: 100%;
     font-size: 14px;
   }
-  
 }
 
 @media (max-width: 1000px) {
   .project-container {
     display: flex;
     flex-direction: column;
+  }
+  .project-container-3-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .project-pic {
     height: 500px;
@@ -53,7 +57,10 @@
     height: 300px;
     width: 100%;
   }
-  
+  .project-about-3-section {
+    height: 300px;
+    width: 100%;
+  }
 }
 
 @media (max-width: 1080px) {
@@ -92,7 +99,7 @@
     overflow: hidden;
     border-radius: 50px;
   }
-  
+
   .about-profile-picc img {
     width: 100%;
     height: 100%;
@@ -212,7 +219,14 @@
     border-radius: 50px 150px;
   }
 
-  .info  h1, p {
+  .about-words {
+    margin: 30px 0 0 15px;
+    width: 100%;
+    height: 300px;
+  }
+
+  .info h1,
+  p {
     margin: 0;
     text-align: center;
   }
@@ -291,7 +305,7 @@
   .round-button {
     width: 50px;
     height: 50px;
-    border: 2px solid var(--primary-color);;
+    border: 2px solid var(--primary-color);
     border-radius: 50%;
   }
 
@@ -304,7 +318,7 @@
   .social-media a {
     margin: 0;
   }
-  
+
   .resume {
     display: flex;
     justify-content: center;
@@ -336,12 +350,69 @@
   }
 }
 
+@media (max-width: 750px) {
+  .project-container {
+    display: flex;
+    align-items: center;
+  }
+  .project-pic {
+    height: 300px;
+    width: 100%;
+    padding: 0;
+  }
+  .project-about {
+    margin: -20px 0 0 0;
+    row-gap: 10px;
+    height: 250px;
+    width: 100%;
+  }
+  .project-about-about p {
+    width: 100%;
+    font-size: 14px;
+  }
+  .project-description h1 {
+    font-size: 12px;
+    width: 450px;
+  }
+}
+
 @media (max-width: 650px) {
+
+  .project-container {
+    display: flex;
+    align-items: center;
+  }
+  .project-pic {
+    height: 250px;
+    width: 100%;
+    padding: 0;
+  }
+  .project-about {
+    margin: -20px 0 0 0;
+    row-gap: 20px;
+    height: 300px;
+    width: 100%;
+  }
+  .project-about-about p {
+    width: 100%;
+    font-size: 12px;
+  }
+  .project-description h1 {
+    font-size: 12px;
+    width: 450px;
+  }
+
   .wrapper {
     margin-bottom: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+
+  .about-words {
+    margin: 30px 0 0 15px;
+    width: 100%;
+    height: 350px;
   }
 
   .intro p {
@@ -360,13 +431,16 @@
   .about-words p {
     font-size: 13px;
   }
-  
+
+  .project-description h1 {
+    font-size: 10px;
+    width: 350px;
+  }
 }
 
 @media (max-width: 510px) {
   .about-words p {
     font-size: 12px;
-    
   }
   .about-words {
     margin: 0;

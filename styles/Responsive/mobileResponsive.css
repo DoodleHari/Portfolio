@@ -111,11 +111,10 @@
   }
 
   .about-words {
-    font-size: 10px;
-  }
-
-  .about-words {
+    font-size: 9px;
     margin: 0;
+    width: 100%;
+    height: 400px;
   }
 
   .aboutme h1 {
@@ -153,8 +152,29 @@
 
   .project-container {
     display: flex;
-    flex-direction: row;
-    margin-top: 40px;
+    align-items: center;
+  }
+  .project-pic {
+    height: 250px;
+    width: 100%;
+    padding: 0;
+  }
+  .project-about {
+    margin: -20px 0 0 0;
+    row-gap: 8px;
     height: 300px;
+    width: 100%;
+  }
+  .project-about-about p {
+    width: 100%;
+    font-size: 9px;
+  }
+  .project-description h1 {
+    font-size: 10px;
+    width: 100%;
+  }
+
+  .para-description {
+    margin: 0;
   }
 }
