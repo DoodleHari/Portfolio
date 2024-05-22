@@ -20,7 +20,7 @@
 
 @media (max-width: 1250px) {
   .project-potion {
-    height: 1450px;
+    height: 1600px;
   }
   .project-container {
     display: flex;
@@ -43,7 +43,7 @@
 
 @media (max-width: 1000px) {
   .project-potion {
-    height: 1900px;
+    height: 2000px;
   }
   .project-container {
     display: flex;
@@ -359,13 +359,13 @@
   }
 
   .project-potion {
-    height: 1700px;
+    height: 1800px;
   }
 }
 
 @media (max-width: 750px) {
   .project-potion {
-    height: 1600px;
+    height: 1700px;
   }
   .project-container {
     display: flex;
@@ -453,7 +453,7 @@
   }
 
   .project-potion {
-    height: 1550px;
+    height: 1650px;
   }
 }
 
@@ -465,12 +465,12 @@
     margin: 0;
   }
   .project-potion {
-    height: 1600px;
+    height: 1700px;
   }
 }
 
 @media (max-width: 500px) {
   .project-potion {
-    height: 1650px;
+    height: 1750px;
   }
 }

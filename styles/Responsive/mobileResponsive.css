@@ -147,7 +147,7 @@
   }
 
   .project-potion {
-    height: 1500px;
+    height: 1600px;
     margin: 40px 15px 10px;
   }
 
@@ -165,14 +165,15 @@
     padding: 0;
   }
   .project-about {
-    margin: -20px 0 0 0;
+    margin: -65px 0 0 0;
     row-gap: 8px;
     height: 300px;
     width: 100%;
   }
   .project-about-about p {
     width: 100%;
-    font-size: 9px;
+    font-size: 9.5px;
+    font-weight: 800;
   }
   .project-description h1 {
     font-size: 10px;
@@ -181,5 +182,22 @@
 
   .para-description {
     margin: 0;
+  }
+}
+
+@media (max-width: 420px) {
+  .project-potion {
+    height: 1700px;
+  }
+
+  .project-about-language {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 395px) {
+
+  .project-about-language {
+    font-size: 12px;
   }
 }
