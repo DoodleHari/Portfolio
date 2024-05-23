@@ -147,7 +147,7 @@
   }
 
   .project-potion {
-    height: 1600px;
+    height: 1700px;
     margin: 40px 15px 10px;
   }
 
@@ -183,6 +183,14 @@
   .para-description {
     margin: 0;
   }
+
+  .bottom-contact-title {
+    font-size: 25px;
+}
+
+#contact {
+  width: 100%;
+}
 }
 
 @media (max-width: 420px) {
@@ -199,5 +207,12 @@
 
   .project-about-language {
     font-size: 12px;
+  }
+}
+
+@media (max-width: 360px) {
+
+  .project-potion {
+    height: 1800px;
   }
 }

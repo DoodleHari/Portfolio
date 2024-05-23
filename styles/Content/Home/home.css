@@ -1,18 +1,18 @@
-.profile {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 0px;
-}
-
 .profile-potion {
-  height: 750px;
+  height: 100%;
   margin: 40px 70px 0;
   padding: 20px;
   border-radius: 50px;
   background-color: var(--color-black);
   backdrop-filter: blur(10px);
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
 }
 
 .info {

@@ -8,13 +8,14 @@
 @import "./Header/toolbar.css";
 @import "./SideBar/sidenav.css";
 @import "./Content/Contact/contactSide.css";
+@import './Content/Contact/contact-bottom.css';
 @import "./Content/Skills/skillsInProfile.css";
 @import "./Responsive/responsive.css";
 @import "./Responsive/mobileResponsive.css";
 
 body {
   font-family: "Inter var", sans-serif;
-  background: rgba(207, 197, 197, 0.342);
+  background: rgba(30, 30, 30, 0.342);
 }
 
 .background {
