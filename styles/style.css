@@ -15,7 +15,8 @@
 
 body {
   font-family: "Inter var", sans-serif;
-  background: rgba(30, 30, 30, 0.342);
+  background: linear-gradient(to bottom, rgb(180, 180, 180) 10%, white 70%);
+
 }
 
 .background {

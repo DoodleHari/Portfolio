@@ -1,4 +1,16 @@
 @media (max-width: 460px) {
+  .skills {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    margin: 40px 10px;
+    padding: 20px 0;
+    border-radius: 50px;
+    background-color: rgba(255, 0, 221, 0.306);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  }
+  
   .profile {
     margin-top: 2px;
   }
@@ -200,6 +212,18 @@
 
   .project-about-language {
     font-size: 14px;
+  }
+
+  .skills {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    margin: 40px 10px;
+    padding: 20px 0;
+    border-radius: 50px;
+    background-color: rgba(255, 0, 221, 0.306);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
   }
 }
 

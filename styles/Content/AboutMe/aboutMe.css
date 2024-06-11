@@ -13,9 +13,9 @@
 }
 
 .about-profile-pic {
-  margin-top: 50px;
-  width: 550px;
-  height: 500px;
+  margin: 50px 50px 0;
+  width: 450px;
+  height: 550px;
   border-radius: 50px 150px;
   overflow: hidden;
   display: block;
@@ -75,6 +75,7 @@
 
 .about-words {
   margin: 30px 0 0 15px;
+  padding-top: 60px;
   width: 50%;
   height: 600px;
   overflow: hidden;
