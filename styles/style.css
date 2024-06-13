@@ -109,6 +109,12 @@ body {
   object-fit: cover;
 }
 
+#preloader-mobile-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .loader img {
   width: 1000px;
   height: 100%;
