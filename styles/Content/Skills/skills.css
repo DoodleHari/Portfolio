@@ -5,7 +5,7 @@
   margin: 40px 70px;
   padding: 20px 0;
   border-radius: 50px 50px 200px 200px;
-  background-color: rgba(255, 0, 221, 0.306);
+  background-color: rgba(247, 0, 255, 0.306);
   backdrop-filter: blur(10px);
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
 }
@@ -37,7 +37,7 @@
   overflow: hidden;
   margin-top: 40px;
   padding: 20px 0;
-  background-color: rgba(211, 114, 198, 0.2);
+  background-color: rgba(200, 114, 211, 0.2);
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
   white-space: nowrap;
   position: relative;

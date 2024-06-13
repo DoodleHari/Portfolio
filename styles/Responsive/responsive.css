@@ -12,11 +12,23 @@
   }
 }
 
+/*-------------------------------------***************************-----------------------------------------------------*/
+
 @media (min-width: 952px) {
   .menu {
     display: none;
   }
 }
+
+/*-------------------------------------***************************-----------------------------------------------------*/
+
+@media (max-width: 1300px) {
+  .about-words {
+    padding-top: 30px;
+  }
+}
+
+/*-------------------------------------***************************-----------------------------------------------------*/
 
 @media (max-width: 1250px) {
   .project-potion {
@@ -39,35 +51,33 @@
     width: 100%;
     font-size: 14px;
   }
+  .about-words {
+    margin: 0;
+    padding-top: 50px;
+    overflow: hidden;
+  }
+  .about-words p {
+    font-size: 14px;
+  }
 }
 
-@media (max-width: 1000px) {
-  .project-potion {
-    height: 2000px;
+@media (max-width: 1200px) {
+  .about-words {
+    margin: 50px 0 0 0;
   }
-  .project-container {
-    display: flex;
-    flex-direction: column;
-  }
-  .project-container-3-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .project-pic {
-    height: 500px;
-    width: 100%;
-    padding: 0;
-  }
-  .project-about {
-    height: 300px;
-    width: 100%;
-  }
-  .project-about-3-section {
-    height: 400px;
-    width: 100%;
+  .about-words p {
+    font-size: 13px;
   }
 }
+
+@media (max-width: 1125px) {
+  .about-words {
+    margin: 0;
+    padding-top: 30px;
+  }
+}
+
+/*-------------------------------------***************************-----------------------------------------------------*/
 
 @media (max-width: 1080px) {
   .wrapper {
@@ -81,7 +91,7 @@
   }
 
   .about-words {
-    margin: 30px 0 0;
+    margin: 50px 0 0;
     width: 100%;
     height: 500px;
     overflow: hidden;
@@ -119,6 +129,8 @@
   }
 }
 
+/*-------------------------------------***************************-----------------------------------------------------*/
+
 @media (max-width: 1008px) {
   .profile-potion {
     margin: 40px 30px 0;
@@ -128,11 +140,11 @@
   }
   .about-me {
     margin: 40px 30px 0;
-    height: 900px;
+    height: 730px;
   }
 
   .about-words {
-    margin: 30px 0 0 15px;
+    margin: 50px 0 0 0;
     width: 100%;
     height: 500px;
     overflow: hidden;
@@ -218,6 +230,44 @@
   }
 }
 
+/*-------------------------------------***************************-----------------------------------------------------*/
+
+@media (max-width: 1000px) {
+  .project-potion {
+    height: 2000px;
+  }
+  .project-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .project-container-3-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .project-pic {
+    height: 500px;
+    width: 100%;
+    padding: 0;
+  }
+  .project-about {
+    height: 300px;
+    width: 100%;
+  }
+  .project-about-3-section {
+    height: 400px;
+    width: 100%;
+  }
+  .about-words {
+    margin: 70px 0 0 0;
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+  }
+}
+
+/*-------------------------------------***************************-----------------------------------------------------*/
+
 @media (max-width: 990px) {
   .skills {
     display: flex;
@@ -238,7 +288,14 @@
   .bottom-contact-header-title {
     font-size: 11px;
   }
+
+  .about-me {
+    margin: 40px 30px 0;
+    height: 800px;
+  }
 }
+
+/*-------------------------------------***************************-----------------------------------------------------*/
 
 @media (max-width: 830px) {
   .profile {
@@ -268,7 +325,13 @@
     overflow: hidden;
     margin-top: 30px;
     display: block;
-    border-radius: 50px 150px;
+    border-radius: 50px      ;
+    /* border-radius: 50px 150px; */
+  }
+
+  .about-me {
+    margin: 40px 30px 0;
+    height: 850px;
   }
 
   .about-words {
@@ -407,6 +470,8 @@
   }
 }
 
+/*-------------------------------------***************************-----------------------------------------------------*/
+
 @media (max-width: 750px) {
   .project-potion {
     height: 1850px;
@@ -448,7 +513,14 @@
     backdrop-filter: blur(10px);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
   }
+
+  .about-me {
+    margin: 40px 30px 0;
+    height: 900px;
+  }
 }
+
+/*-------------------------------------***************************-----------------------------------------------------*/
 
 @media (max-width: 650px) {
   .bottom-contact-header-title {
@@ -518,6 +590,8 @@
   }
 }
 
+/*-------------------------------------***************************-----------------------------------------------------*/
+
 @media (max-width: 600px) {
   .bottom-contact-title {
     font-size: 30px;
@@ -527,6 +601,8 @@
     font-size: 13px;
   }
 }
+
+/*-------------------------------------***************************-----------------------------------------------------*/
 
 @media (max-width: 580px) {
   .bottom-contact-header-title {
@@ -542,6 +618,8 @@
     height: 1850px;
   }
 }
+
+/*-------------------------------------***************************-----------------------------------------------------*/
 
 @media (max-width: 500px) {
   .project-potion {

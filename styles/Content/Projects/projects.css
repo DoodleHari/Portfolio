@@ -5,6 +5,8 @@
   margin: 40px 70px;
   padding: 20px;
   border-radius: 50px;
+  border-top: 20px solid #0072ff;
+  border-left: 20px solid  #0072ff 180deg;
   background-color: rgb(255, 255, 255);
 }
 

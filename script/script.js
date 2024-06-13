@@ -33,6 +33,16 @@ function centerSectionsVertically() {
 window.addEventListener('load', centerSectionsVertically);
 window.addEventListener('resize', centerSectionsVertically);
 
+// this function is used for the preloading
+window.addEventListener('load', function() {
+    let preloader = document.getElementById('preloader');
+    let content = document.getElementById('content');
+
+    setTimeout(function() {
+        preloader.style.display = 'none';
+        content.style.display = 'block';
+    }, 6000); // 5000 milliseconds = 5 minutes
+});
 
 
 function openContactSection() {
