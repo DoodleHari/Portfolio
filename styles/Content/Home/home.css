@@ -119,7 +119,7 @@
 }
 
 .dynamic-txts li{
-  color: var(--dark-blue);
+  color: var(--dark-blue) !important;
   list-style: none;
   font-size: 30px;
   font-weight: 400;

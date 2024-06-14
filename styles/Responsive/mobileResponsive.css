@@ -80,7 +80,6 @@
   }
 
   .dynamic-txts li {
-    color: var(--secondary-color);
     list-style: none;
     font-size: 16px;
     font-weight: 400;

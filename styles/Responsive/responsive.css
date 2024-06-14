@@ -176,7 +176,6 @@
   }
 
   .dynamic-txts li {
-    color: var(--secondary-color);
     list-style: none;
     font-size: 25.5px;
     font-weight: 400;
@@ -373,7 +372,6 @@
   }
 
   .dynamic-txts li {
-    color: var(--secondary-color);
     list-style: none;
     font-size: 26px;
     font-weight: 400;
