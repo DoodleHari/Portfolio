@@ -2,13 +2,24 @@
   .skills {
     display: flex;
     flex-direction: column;
-    height: 300px;
+    height: 330px;
     margin: 40px 10px;
     padding: 20px 0;
     border-radius: 50px;
-    background-color: rgba(255, 0, 221, 0.306);
+    border-top: 20px solid #4fffb0;
+    background-color: rgba(105, 244, 244, 0.306);
     backdrop-filter: blur(10px);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  }
+
+  .logos {
+    border-radius: 0;
+  }
+
+  .logos-slide img {
+    height: 30px;
+    margin: 0 20px;
+    border-radius: 50%;
   }
 
   .profile {
@@ -212,6 +223,8 @@
   }
 }
 
+/*------------------------------***********************------------------------------------*/
+
 @media (max-width: 420px) {
   .about-profile-pic {
     margin: 20px 0 0 0;
@@ -235,15 +248,28 @@
   .skills {
     display: flex;
     flex-direction: column;
-    height: 300px;
+    height: 330px;
     margin: 40px 10px;
     padding: 20px 0;
     border-radius: 50px;
-    background-color: rgba(255, 0, 221, 0.306);
+    border-top: 20px solid #4fffb0;
+    background-color: rgba(105, 244, 244, 0.306);
     backdrop-filter: blur(10px);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
   }
+
+  .logos {
+    border-radius: 0;
+  }
+
+  .logos-slide img {
+    height: 30px;
+    margin: 0 20px;
+    border-radius: 50%;
+  }
 }
+
+/*------------------------------***********************------------------------------------*/
 
 @media (max-width: 395px) {
   .project-about-language {

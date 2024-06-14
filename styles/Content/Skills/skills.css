@@ -1,11 +1,12 @@
 .skills {
   display: flex;
   flex-direction: column;
-  height: 400px;
+  height: 450px;
   margin: 40px 70px;
   padding: 20px 0;
+  border-top: 20px solid #4FFFB0;
   border-radius: 50px 50px 200px 200px;
-  background-color: rgba(247, 0, 255, 0.306);
+  background-color: rgba(105, 244, 244, 0.306);
   backdrop-filter: blur(10px);
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
 }
@@ -37,10 +38,13 @@
   overflow: hidden;
   margin-top: 40px;
   padding: 20px 0;
-  background-color: rgba(200, 114, 211, 0.2);
+  border-left: 10px solid rgba(255, 255, 255, 0.813);
+  border-right: 10px solid rgba(255, 255, 255, 0.813);
+  background-color: #4fffb05f;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
   white-space: nowrap;
   position: relative;
+  border-radius: 0 0 10px 10px;
 }
 
 .logos:before,
@@ -58,7 +62,7 @@
   background: linear-gradient(
     to left,
     rgb(255, 255, 255, 0),
-    rgb(216, 163, 209, 0.9)
+    rgba(255, 255, 255, 0.9)
   );
 }
 
@@ -67,7 +71,7 @@
   background: linear-gradient(
     to right,
     rgb(255, 255, 255, 0),
-    rgb(216, 163, 209, 0.9)
+    rgba(252, 252, 252, 0.9)
   );
 }
 
@@ -81,7 +85,7 @@
 }
 
 .logos-slide img {
-  height: 50px;
+  height: 70px;
   margin: 0 40px;
   border-radius: 50%;
 }

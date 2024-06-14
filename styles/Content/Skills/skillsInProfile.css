@@ -36,16 +36,16 @@
     );
   }
   
-  .logosProf:hover .logos-slide {
+  .logosProf:hover .logosProf-slide {
     animation-play-state: paused;
   }
   
-  .logos-slide {
+  .logosProf-slide {
     display: inline-block;
     animation: 35s slide infinite linear;
   }
 
-  .logos-slide img {
+  .logosProf-slide img {
     height: 50px;
     margin: 0 40px;
     border-radius: 50%;
