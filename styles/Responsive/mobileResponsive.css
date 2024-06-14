@@ -1,4 +1,8 @@
 @media (max-width: 460px) {
+  .bottom-contact {
+    height: 800px;
+  }
+
   .skills {
     display: flex;
     flex-direction: column;
