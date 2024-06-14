@@ -446,7 +446,7 @@
   }
 
   .about-background-profile-pic {
-    display: none;
+    opacity: 0;
   }
 
   .project-container {
