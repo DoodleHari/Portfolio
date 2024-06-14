@@ -445,6 +445,10 @@
     font-size: 14px;
   }
 
+  .about-background-profile-pic {
+    display: none;
+  }
+
   .project-container {
     display: flex;
     align-items: center;
